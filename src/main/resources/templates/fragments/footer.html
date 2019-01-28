@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Header</title>
+</head>
+
+<body>
+<footer  class=" footer bg-dark" th:fragment="footer"  >
+		
+		<p class="text-white"  >
+			<span th:text="${footer}" >Todos los derechos reservados.</span>2018 &copy; Ozymern  
+		</p>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Bootstrap JS -->
+		<script th:src="@{/js/jquery-3.2.1.min.js}"></script>
+		<script th:src="@{/js/popper.min.js}"></script>
+		<script th:src="@{/js/bootstrap.min.js}"></script>
+		<script th:src="@{/js/jquery-ui.min.js}"></script>
+	</footer>
+	
+</body>
+</html>
